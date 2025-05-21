@@ -135,7 +135,7 @@ bash
 
 ## 📊 Структура проекта
 proektFS/
-├── disk.filesystem    # Образ файловой системы
+├── disk.filesystem  # Образ файловой системы
 ├── filesystem.c     # Реализация функций
 ├── filesystem.h     # Заголовочный файл
 ├── main.c           # CLI-интерфейс
