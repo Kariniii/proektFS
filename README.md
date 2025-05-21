@@ -134,8 +134,8 @@ bash
 ---
 
 ## 📊 Структура проекта
-SimpleFS/
-├── disk.simplefs    # Образ файловой системы
+proektFS/
+├── disk.filesystem    # Образ файловой системы
 ├── filesystem.c     # Реализация функций
 ├── filesystem.h     # Заголовочный файл
 ├── main.c           # CLI-интерфейс
