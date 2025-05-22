@@ -2,12 +2,12 @@
 #include <string.h>
 
 int main() {
-    FILE* fs = fs_open("disk.simplefs");
+    FILE* fs = fs_open("disk.filesystem");
     if (!fs) return 1;
 
     char cmd[20], filename[100], content[1024];
 
-    printf("SimpleFS Shell. Commands: create, view, modify, delete, exit\n");
+    printf("proektFS Shell. Commands: create, view, modify, delete, exit\n");
     while (1) {
         printf("> ");
         scanf("%s", cmd);
